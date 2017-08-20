@@ -2,7 +2,6 @@ from selenium import webdriver
 from bs4 import BeautifulSoup 
 import pandas as pd 
 import time
-#import auto_login 
 	
 def part_select(browser,select_page):
 	# After login, get wanted page
@@ -59,7 +58,7 @@ def part_select(browser,select_page):
 
 # Using selenium to Scrape ASP.NET Pages with AJAX Pagination 
 def get_query(browser, page_no):
-
+# creat urls to store urs 
 	df_url= {
 		"urls":[]
 	}
