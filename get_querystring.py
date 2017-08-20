@@ -57,7 +57,7 @@ def part_select(browser,select_page):
  
 
 # Using selenium to Scrape ASP.NET Pages with AJAX Pagination 
-def get_query(browser, page_no):
+def get_query(browser, page_no,file_address):
 # creat urls to store urs 
 	df_url= {
 		"urls":[]
@@ -91,6 +91,6 @@ def get_query(browser, page_no):
 		time.sleep(10)
 		
 	df_query = pd.DataFrame(df_url)
-	df_query.to_csv('/Users/JieREN/Desktop/ihope/web_scraping/query.csv', index=False, header="urls")
+	df_query.to_csv(file_address, index=False, header="urls")
 
 
