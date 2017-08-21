@@ -28,11 +28,11 @@ High flexible to manage and extract structured data from webpages.
 - re 
 
 ## Main files 
-- auto-login.py
-- get-querystring.py
-- url-generator
-- single-page.py
+- auto-login.py: login with cookies
+- get-querystring.py: get guery-string parameter; access to AJAX pagination
+- url-generator: generate url address
+- single-page.py: Scape with item on a singe page and save it into local csv file.
 - multiple-files.py: Manipulate multiple large database files
-- file-clear.py : deal with missing value; Convert unstructed data into structured data
+- file-clear.py : Deal with missing value; Convert unstructed data into structured data
 
 
