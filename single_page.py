@@ -45,6 +45,30 @@ def single_page_scrape(page,file_adress):
 	# arrays must all be same length
 		df['PRI_ORG'].append(main_org)
 		df['ADDR_1'].append(address_1)
+		
+		try: 
+			address_2 = item.find('td',{'class':'l2'}).findNext('td').text.encode('utf-8')
+		except:
+			address_2 = ''
+		df['ADDR_2'].append(address_2)
+
+		try: 
+			address_3 = item.find('td',{'class':'l3'}).findNext('td').text.encode('utf-8')
+		except:
+			address_3 = ''
+		df['ADDR_3'].append(address_3)
+
+		try: 
+			address_4 = item.find('td',{'class':'l4'}).findNext('td').text.encode('utf-8')
+		except:
+			address_4 = ''
+		df['ADDR_4'].append(address_4)
+
+		try: 
+			address_5 = item.find('td',{'class':'l5'}).findNext('td').text.encode('utf-8')
+		except:
+			address_5 = ''
+		df['ADDR_5'].append(address_5)
 
 		try:
 			title = item.find("td",{"class":"ID72"}).contents[0].encode('utf-8').strip()
