@@ -29,7 +29,7 @@ High flexible to manage and extract structured data from webpages.
 
 ## Main files 
 - auto-login.py: login with cookies
-- get-querystring.py: get guery-string parameter; access to AJAX pagination
+- get-querystring.py: get guery-string parameter; AJAX pagination
 - url-generator: generate url address
 - single-page.py: Scape with item on a singe page and save it into local csv file.
 - multiple-files.py: Manipulate multiple large database files
