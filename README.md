@@ -32,7 +32,7 @@ High flexible to manage and extract structured data from webpages.
 - get-querystring.py
 - url-generator
 - single-page.py
-- multiple-file.py
-- file-clear.py
+- multiple-files.py: Manipulate multiple large database files
+- file-clear.py : deal with missing value; Convert unstructed data into structured data
 
 
