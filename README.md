@@ -1,5 +1,8 @@
-This web scraping project is made by **Python2.7**. 
+This distributed web scraping project is made by **Python2.7**. 
 High flexible to manage and extract structured data from webpages.
+## Architecture 
+![alt text](https://github.com/jieren123/Web_Crawler_Scraper/blob/master/web_crawler_system.png "Web Crawler-Scraper System")
+
 ## Main Features 
 - Automation: Autologin is to make it easier for web spider to crawl websites that require authenticaion. 
   -  Automiatically find login fields and can handle login that requires dynamic CSRF token. 
