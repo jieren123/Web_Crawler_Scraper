@@ -22,7 +22,7 @@ High flexible to manage and extract structured data from webpages.
 - Easy to maintain and extend 
 - Less Memory leak
 
-## Requirement 
+## Requirements 
 - BeautifulSoup4 
 - python 2.7
 - Selenium
